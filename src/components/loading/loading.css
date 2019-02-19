@@ -1,0 +1,18 @@
+#loading{
+    background: rgb(10,10,10, 0.1);
+}
+
+#loading img{
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#loading strong{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 2rem;
+}

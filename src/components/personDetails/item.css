@@ -1,0 +1,34 @@
+.person-item img{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.person-item{
+    border: 1px solid gainsboro;
+    width: 400px;
+    margin: 10px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.person-item:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.person-details{
+    width: 250px;
+    display: flex;
+    word-wrap: break-word;
+
+    flex-direction: column;
+}
+
+.person-details > * {
+    margin: 20px;
+}
